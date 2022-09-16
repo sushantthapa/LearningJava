@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8"/>
+	<classpathentry kind="src" path="src/main/java"/>
+	<classpathentry kind="con" path="org.eclipse.jst.server.core.container/org.eclipse.jst.server.tomcat.runtimeTarget/apache-tomcat-8.0.53">
+		<attributes>
+			<attribute name="owner.project.facets" value="jst.web"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="con" path="org.eclipse.jst.j2ee.internal.web.container"/>
+	<classpathentry kind="con" path="org.eclipse.jst.j2ee.internal.module.container"/>
+	<classpathentry kind="lib" path="src/main/webapp/WEB-INF/lib/activation.jar"/>
+	<classpathentry kind="lib" path="src/main/webapp/WEB-INF/lib/axis.jar"/>
+	<classpathentry kind="lib" path="src/main/webapp/WEB-INF/lib/axis2-kernel-1.6.1.jar"/>
+	<classpathentry kind="lib" path="src/main/webapp/WEB-INF/lib/axis-ant.jar"/>
+	<classpathentry kind="lib" path="src/main/webapp/WEB-INF/lib/chttpclient.jar"/>
+	<classpathentry kind="lib" path="src/main/webapp/WEB-INF/lib/clogging.jar"/>
+	<classpathentry kind="lib" path="src/main/webapp/WEB-INF/lib/cnet.jar"/>
+	<classpathentry kind="lib" path="src/main/webapp/WEB-INF/lib/codec-21.jar"/>
+	<classpathentry kind="lib" path="src/main/webapp/WEB-INF/lib/commons-codec-1.3.jar"/>
+	<classpathentry kind="lib" path="src/main/webapp/WEB-INF/lib/commons-discovery-0.2.jar"/>
+	<classpathentry kind="lib" path="src/main/webapp/WEB-INF/lib/commons-fileupload-1.2.1.jar"/>
+	<classpathentry kind="lib" path="src/main/webapp/WEB-INF/lib/commons-httpclient-3.0.1.jar"/>
+	<classpathentry kind="lib" path="src/main/webapp/WEB-INF/lib/commons-io-1.4.jar"/>
+	<classpathentry kind="lib" path="src/main/webapp/WEB-INF/lib/commons-logging-api-1.1.jar"/>
+	<classpathentry kind="lib" path="src/main/webapp/WEB-INF/lib/cos.jar"/>
+	<classpathentry kind="lib" path="src/main/webapp/WEB-INF/lib/fileupload.jar"/>
+	<classpathentry kind="lib" path="src/main/webapp/WEB-INF/lib/flexicoreprovider-1.7.jar"/>
+	<classpathentry kind="lib" path="src/main/webapp/WEB-INF/lib/ftpimpl.jar"/>
+	<classpathentry kind="lib" path="src/main/webapp/WEB-INF/lib/hsqldb.jar"/>
+	<classpathentry kind="lib" path="src/main/webapp/WEB-INF/lib/httpimpl.jar"/>
+	<classpathentry kind="lib" path="src/main/webapp/WEB-INF/lib/imageresize4j_1.0_trial.jar"/>
+	<classpathentry kind="lib" path="src/main/webapp/WEB-INF/lib/imap.jar"/>
+	<classpathentry kind="lib" path="src/main/webapp/WEB-INF/lib/j8583.jar"/>
+	<classpathentry kind="lib" path="src/main/webapp/WEB-INF/lib/jai_imageio.jar"/>
+	<classpathentry kind="lib" path="src/main/webapp/WEB-INF/lib/java-json.jar"/>
+	<classpathentry kind="lib" path="src/main/webapp/WEB-INF/lib/javax.wsdl_1.5.1.v200806030408.jar"/>
+	<classpathentry kind="lib" path="src/main/webapp/WEB-INF/lib/jaxrpc.jar"/>
+	<classpathentry kind="lib" path="src/main/webapp/WEB-INF/lib/jclientupload.jar"/>
+	<classpathentry kind="lib" path="src/main/webapp/WEB-INF/lib/jdbm-1.0.jar"/>
+	<classpathentry kind="lib" path="src/main/webapp/WEB-INF/lib/jdom-1.0.jar"/>
+	<classpathentry kind="lib" path="src/main/webapp/WEB-INF/lib/jersey-client-1.17.1.jar"/>
+	<classpathentry kind="lib" path="src/main/webapp/WEB-INF/lib/jersey-core-1.17.1.jar"/>
+	<classpathentry kind="lib" path="src/main/webapp/WEB-INF/lib/jpos.jar"/>
+	<classpathentry kind="lib" path="src/main/webapp/WEB-INF/lib/jxl.jar"/>
+	<classpathentry kind="lib" path="src/main/webapp/WEB-INF/lib/log4j.jar"/>
+	<classpathentry kind="lib" path="src/main/webapp/WEB-INF/lib/mailapi.jar"/>
+	<classpathentry kind="lib" path="src/main/webapp/WEB-INF/lib/oracle.jar"/>
+	<classpathentry kind="lib" path="src/main/webapp/WEB-INF/lib/pmiw.jar"/>
+	<classpathentry kind="lib" path="src/main/webapp/WEB-INF/lib/poolman.jar"/>
+	<classpathentry kind="lib" path="src/main/webapp/WEB-INF/lib/pop3.jar"/>
+	<classpathentry kind="lib" path="src/main/webapp/WEB-INF/lib/postgresql-8.1-407.jdbc3.jar"/>
+	<classpathentry kind="lib" path="src/main/webapp/WEB-INF/lib/progress.jar"/>
+	<classpathentry kind="lib" path="src/main/webapp/WEB-INF/lib/saaj.jar"/>
+	<classpathentry kind="lib" path="src/main/webapp/WEB-INF/lib/sfilter.jar"/>
+	<classpathentry kind="lib" path="src/main/webapp/WEB-INF/lib/smtp.jar"/>
+	<classpathentry kind="lib" path="src/main/webapp/WEB-INF/lib/struts.jar"/>
+	<classpathentry kind="lib" path="src/main/webapp/WEB-INF/lib/taglibs-image.jar"/>
+	<classpathentry kind="lib" path="src/main/webapp/WEB-INF/lib/uploadbean.jar"/>
+	<classpathentry kind="lib" path="src/main/webapp/WEB-INF/lib/util.jar"/>
+	<classpathentry kind="lib" path="src/main/webapp/WEB-INF/lib/webserviceutils.jar"/>
+	<classpathentry kind="lib" path="src/main/webapp/WEB-INF/lib/wsdl4j-1.5.1.jar"/>
+	<classpathentry kind="lib" path="src/main/webapp/WEB-INF/lib/xerces.jar"/>
+	<classpathentry kind="output" path="build/classes"/>
+</classpath>
