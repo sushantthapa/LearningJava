@@ -58,6 +58,10 @@ label {
 	font-size: 20px;
 	margin-right: 15px;
 }
+label:hover{
+	box-shadow: 0 0 5px red;
+	cursor: pointer;
+}
 
 input {
 	font-family: "Sofia", sans-serif;
@@ -76,13 +80,17 @@ input {
 	top: 8px;
 	right: 16px;
 	transform: rotate(-180deg);
-	transition: 10s;
-	opacity: 0.8;
+	transition: 5s;
+	opacity: 0.5;
 }
 
 #img1:hover {
+	
 	transform: rotate(180deg);
-	transition: 10s;
+	transition: 5s;
+	box-shadow: 0 0 5px red;
+	opacity: 0.8;
+	cursor: pointer;
 }
 
 input:focus::placeholder {
