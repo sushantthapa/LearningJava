@@ -40,7 +40,7 @@ List ll = dd.getDropDownList();
 
 		<div class="wrapper">
 			<div class="select-btn">
-				<span>Select Country</span>
+				<span>Select Bank Name</span>
 				<iconify-icon id="angledown" icon="uil:angle-down"></iconify-icon>
 			</div>
 			<div class="content">
@@ -49,15 +49,15 @@ List ll = dd.getDropDownList();
 					<input id="wtf" class="nvm" type="text" placeholder="Search">
 
 				</div>
-			<%-- 	<ul class="options">
+		<ul id="originallists" class="options">
 					<%
 					for (int i = 0; i < ll.size(); i++) {
 					%>
-					<li><%=ll.get(i)%></li>
+					<li id="itemslist" onclick="updateName(this)"><%=ll.get(i)%></li>
 					<%
 					}
 					%>
-				</ul> --%>
+				</ul> 
 				
 				<ul id="options1" class="options">
 				
@@ -74,6 +74,17 @@ List ll = dd.getDropDownList();
 
 		<a href="form.jsp">form>></a>
 
+<select>
+<% 
+for (int i = 0; i < ll.size(); i++) {
+					%>
+					<option><%=ll.get(i)%></option>
+					<%
+					}
+					%>
+	<option></option>
+	
+</select>
 
 
 
@@ -92,6 +103,7 @@ body {
 }
 
 .select-btn {
+    width: 360px;
 	height: 65px;
 	font-size: 22px;
 	display: flex;
@@ -119,6 +131,7 @@ body {
 	border-radius: 7px;
 	background: #fff;
 	position:absolute;
+	width: 360px;
 }
 
 .wrapper.active .content {
@@ -198,12 +211,21 @@ selectBtn.addEventListener("click", () => {
 	wrapper.classList.toggle("active");
 });
 
+
+
+
 </script>
 
 <script type="text/javascript">
+/* if(inputvalue.length >0)
+{
+	$("#originallists").hide();
+} */
 $(document).on('keydown','.nvm',function(){
 	
 	console.log("Testinnnnnnnnnnnnnnnnnnnnnnnnng.....");
+	
+	
 
 	$('#wtf').autocomplete({
 		source: function(request,response)
@@ -227,6 +249,14 @@ $(document).on('keydown','.nvm',function(){
 		
 			/* $(content).appendTo("#options1"); */
 			$("#options1").html(content);
+			
+			var inputval = document.getElementById("wtf").value;
+			console.log(inputval.length);
+			if(inputval.length > 0)
+				{
+				 $("#originallists").hide(); 
+				
+				}
 			
 			
 			
